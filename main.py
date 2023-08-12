@@ -311,7 +311,7 @@ elif selected2 == 'Map':
     folium.GeoJson(dfg_market.to_json(),
                 tooltip=folium.GeoJsonTooltip(fields=['Province', 'name','Kelompok Komoditas Utama','Klasifikasi','Perkiraan Jumlah Pedagang','Waktu Operasi'])).add_to(map_)
 
-    folium_static(map_,width=1600,height=700)
+    folium_static(map_,width=700,height=700)
 
     # #uncovered_pop
     # folium.GeoJson(uncovered_pop.to_json(),
