@@ -60,7 +60,7 @@ overall,overall2 = container2[0].columns(colArray3)
 #content0.title("")
 dir_pop = Path(__file__).parent / 'population_fulldim_demo.geojson'
 dir_market = Path(__file__).parent / 'market_fulldim_demo.geojson'
-@st.cache
+@st.cache(allow_output_mutation=True)
 def load_data(dirpop,dirmarket):
     # with gzip.open(dir_pop, 'rb') as f:
     #     with tempfile.NamedTemporaryFile(mode='wb', delete=False) as tmp:
