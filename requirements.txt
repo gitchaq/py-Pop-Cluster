@@ -1,33 +1,33 @@
-osmnx==1.2.2
-networkx==3.0
-branca==0.3.1
+# osmnx==1.2.2
+# networkx==3.0
+# branca==0.3.1
 folium==0.12.1
-ortools
+# ortools
 geopy == 2.3.0
-ipython == 8.8.0
-python-docx==0.8.11
+# ipython == 8.8.0
+# python-docx==0.8.11
 hydralit_components==1.0.10
-matplotlib==3.5.2
+# matplotlib==3.5.2
 numpy==1.22
 pandas==1.4.4
-Pillow==9.4.0
-plotly==5.9.0
-pyvis==0.3.1
-requests==2.28.1
-seaborn==0.11.2
-SQLAlchemy==1.4.39
+# Pillow==9.4.0
+# plotly==5.9.0
+# pyvis==0.3.1
+# requests==2.28.1
+# seaborn==0.11.2
+# SQLAlchemy==1.4.39
 streamlit==1.17.0
 streamlit_authenticator==0.2.1
 streamlit_extras==0.2.6
 streamlit_option_menu==0.3.2
 streamlit_folium
-sphinx
-psycopg2-binary
-openpyxl
-scikit-learn
-xlsxwriter
-gpxpy
-fastdtw
-pytz
+# sphinx
+# psycopg2-binary
+# openpyxl
+# scikit-learn
+# xlsxwriter
+# gpxpy
+# fastdtw
+# pytz
 rtree
-shapely
+# shapely
