@@ -1,11 +1,9 @@
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
-import gzip
 import shapely
 from shapely.geometry import MultiPolygon, MultiLineString,Polygon,Point,MultiPoint,LineString
 import numpy as np
-import json
 import folium
 from rtree import index
 from shapely.geometry import Point
@@ -13,9 +11,7 @@ from streamlit_folium import folium_static
 from streamlit_option_menu import option_menu
 from collections import Counter
 from pathlib import Path
-import fiona
 from shapely.geometry import shape
-import tempfile
 from streamlit_extras import faker, card, word_importances, app_logo
 from PIL import Image
 from pathlib import Path
