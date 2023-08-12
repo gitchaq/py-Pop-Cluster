@@ -30,4 +30,5 @@ streamlit_folium
 # fastdtw
 # pytz
 rtree
-# shapely
+shapely
+geopandas
